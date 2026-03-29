@@ -1,0 +1,5 @@
+/* Base colors */
+@define-color bg rgba(30,30,30,0.75);
+@define-color fg #eaeaea;
+@define-color muted #888888;
+@define-color accent #6ee7ff;

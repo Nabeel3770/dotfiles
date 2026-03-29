@@ -1,0 +1,12 @@
+arc-gtk-theme
+bibata-cursor-theme
+python-clickgen
+python-pywalfox
+spotify
+swww
+swww-debug
+tty-clock-debug
+vesktop-debug
+visual-studio-code-bin
+wlogout-debug
+yay-bin-debug
