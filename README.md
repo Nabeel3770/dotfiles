@@ -21,8 +21,10 @@ This setup focuses on simplicity over complexity - no unnecessary bloat, just a 
 
 🖼️ Preview
 
-"Desktop" (screenshots/desktop.png)
-"Power Menu" (screenshots/wlogout.png)
+<p align="center">
+  <img src="screenshots/desktop.png" width="48%" />
+  <img src="screenshots/wlogout.png" width="48%" />
+</p>
 
 ---
 
@@ -93,5 +95,3 @@ This is my first Hyprland setup and I learned a lot while making it.
 Feel free to use it, modify it, or build your own version from it.
 
 ---
-
-⭐ If you like it, consider starring the repo!
