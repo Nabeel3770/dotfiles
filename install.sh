@@ -1,38 +1,61 @@
 #!/bin/bash
 
-echo ":package: Installing packages..."
+set -e
 
+echo "Starting Hyprland dotfiles installation..."
+
+# =========================
+# Install packages
+# =========================
+echo "Installing packages..."
 sudo pacman -S --needed - < pkglist.txt
 
+# =========================
+# Install yay if missing
+# =========================
 if ! command -v yay &> /dev/null
 then
-echo "Installing yay..."
-sudo pacman -S --needed base-devel git
-git clone https://aur.archlinux.org/yay.git
-cd yay && makepkg -si
-cd ..
+    echo "Installing yay..."
+    sudo pacman -S --needed base-devel git
+    git clone https://aur.archlinux.org/yay.git
+    cd yay && makepkg -si --noconfirm
+    cd ..
 fi
 
+# =========================
+# Install AUR packages
+# =========================
+echo "Installing AUR packages..."
 yay -S --needed - < aur.txt
 
-echo ":file_folder: Copying configs..."
+# =========================
+# Copy configs
+# =========================
+echo "Copying configs..."
+mkdir -p ~/.config
+cp -r .config/* ~/.config/
 
-cp -r hypr ~/.config/
-cp -r waybar ~/.config/
-cp -r rofi ~/.config/
-cp -r wlogout ~/.config/
-cp -r gtk-3.0 ~/.config/
-cp -r gtk-4.0 ~/.config/
-cp -r Kvantum ~/.config/
-cp -r swaync ~/.config/
+# =========================
+# Themes & icons
+# =========================
+echo "Copying themes and icons..."
+mkdir -p ~/.local/share/icons
+mkdir -p ~/.local/share/themes
 
-echo ":art: Copying themes & icons..."
+cp -r icons/* ~/.local/share/icons/ 2>/dev/null || true
+cp -r system-themes/* ~/.local/share/themes/ 2>/dev/null || true
 
-cp -r icons ~/.icons
-cp -r system-themes ~/.themes
+# =========================
+# Fonts
+# =========================
+echo "Copying fonts..."
+mkdir -p ~/.local/share/fonts
 
-echo ":abc: Copying fonts..."
+cp -r fonts/* ~/.local/share/fonts/ 2>/dev/null || true
+fc-cache -fv
 
-cp -r fonts ~/.local/share/ 2>/dev/null
-
-echo ":white_check_mark: Setup complete!"
+# =========================
+# Done
+# =========================
+echo "Setup complete!"
+echo "Reboot or relogin to apply everything."
