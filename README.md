@@ -1,6 +1,6 @@
 ✨ My Hyprland Dotfiles
 
-«My first ever Hyprland rice — minimal, clean, and actually usable.»
+My first Hyprland rice - minimal, clean, and actually usable.
 
 ---
 
@@ -8,89 +8,90 @@
 
 This is my personal Hyprland setup built from scratch.
 
-- 🎯 Minimal and clean design
-- ⚡ Fast and lightweight
-- 🎨 Very few external themes (kept simple)
-- 🧩 Easy to understand and modify
+I wanted something simple that looks good and feels smooth without being overcomplicated.
 
-This rice focuses on simplicity over complexity — no unnecessary bloat.
+- Minimal and clean design
+- Fast and lightweight
+- Very few external themes
+- Easy to understand and modify
+
+This setup focuses on simplicity over complexity - no unnecessary bloat, just a clean base you can build on.
 
 ---
 
 🖼️ Preview
 
-![Preview](screenshots/desktop.png)
-![PowerMenu](screenshots/wlogout.png)
+"Desktop" (screenshots/desktop.png)
+"Power Menu" (screenshots/wlogout.png)
 
 ---
 
 ⚙️ Components
 
-- 🪟 WM: Hyprland
-- 📊 Bar: Waybar
-- 🔍 Launcher: Rofi
-- 🔒 Lockscreen: Hyprlock
-- ⏻ Logout Menu: Wlogout
-- 🖼️ Wallpaper: swww
-- 🔔 Notifications: swaync
+- WM: Hyprland
+- Bar: Waybar
+- Launcher: Rofi
+- Lockscreen: Hyprlock
+- Logout Menu: Wlogout
+- Wallpaper: swww
+- Notifications: swaync
 
 ---
 
 🎨 Theming
 
-- GTK theme (minimal)
+- Minimal GTK theme
 - Kvantum styling
-- Custom Waybar pills
-- Cyan accent color scheme
+- Custom Waybar pill design
+- Cyan accent colors
 
 ---
 
 📦 Installation
 
-Clone the repo:
+1. Clone the repository
 
 git clone https://github.com/Nabeel3770/dotfiles.git
 cd dotfiles
 
-Run setup:
+---
+
+2. Run the install script
 
 chmod +x install.sh
 ./install.sh
 
 ---
 
+3. Restart your session
+
+After installation, log out and log back in (or reboot) to apply everything.
+
+---
+
 🧾 Notes
 
-- Wallpapers are included inside the repo
-- Uses "swww" for wallpaper handling
+- Wallpapers are included in the repo
+- Uses "swww" for wallpapers
 - Designed for Arch Linux
-- May require minor tweaks depending on your system
+- You may need small tweaks depending on your system
 
 ---
 
 ⚠️ Disclaimer
 
-This is my personal setup — things may not work perfectly on every system.
+This is my personal setup, so it might not work perfectly on every system.
 
-But it’s simple enough to fix and customize.
-
----
-
-🧊 Future Improvements
-
-- [ ] Better automation script
-- [ ] Multiple theme support
-- [ ] Cleaner package list
-- [ ] Screenshot previews
+But everything is kept simple, so it’s easy to fix and customize.
 
 ---
 
 🤍 Final Thoughts
 
-This is my first Hyprland setup and I learned a lot building it.
+This is my first Hyprland setup and I learned a lot while making it.
 
-If you like it or use it, feel free to fork or improve it.
+Feel free to use it, modify it, or build your own version from it.
 
 ---
 
-⭐ If this helped you, consider starring the repo!
+⭐ If you like it, consider starring the repo!
