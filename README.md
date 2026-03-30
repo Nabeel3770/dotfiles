@@ -21,20 +21,25 @@ This setup focuses on simplicity over complexity - no unnecessary bloat, just a 
 
 🖼️ Preview
 
-## Preview
+### Preview
 
 ![Preview](previews/preview.gif)
-![Hyprlock](previews/hyprlock.gif)
+
+<details>
+<summary> :file_folder: Click to view all screenshots</summary>
 
 ### Desktop
-
 ![desktop](previews/desktop.png)
 ![desktop2](previews/desktop2.png)
 ![desktop3](previews/desktop3.png)
 
 ### Rofi
-
 ![rofi](previews/rofi.png)
+
+### Hyprlock
+![hyprlock](previews/hyprlock.gif)
+
+</details>
 
 ---
 
