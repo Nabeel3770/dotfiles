@@ -1,0 +1,23 @@
+[general]
+bars = 30
+bar_width = 2
+bar_spacing = 1
+
+[output]
+method = ncurses
+
+[color]
+gradient = 1
+gradient_count = 2
+
+gradient_color_1 = '#6ee7ff'
+gradient_color_2 = '#1f2933'
+
+[style]
+bar_char = █
+bar_falloff = 0
+bar_smoothing = 0
+sleep_timer = 0
+
+[input]
+method = pulse

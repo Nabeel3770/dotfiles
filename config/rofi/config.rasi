@@ -1,0 +1,112 @@
+@theme "/dev/null"
+
+configuration {
+    disable-history: true;
+    modi: "drun";
+    show-icons: true;
+    drun-display-format: "{name}";
+    drun-match-fields: "name";
+    sorting-method: "fzf";
+}
+
+/* ===== GLOBAL ===== */
+* {
+    background: transparent;
+    background-color: transparent;
+
+    text-color: rgba(255,255,255,0.9);
+}
+
+/* ===== WINDOW ===== */
+window {
+    location: center;
+    anchor: center;
+    width: 520px;
+
+    background-color: rgba(15, 15, 15, 0.6);
+    border-radius: 24px;
+    border: 1px;
+    border-color: rgba(110,231,255,0.2);
+    padding: 16px;
+}
+
+/* ===== LAYOUT ===== */
+mainbox {
+    spacing: 14px;
+}
+
+/* ===== SEARCH BAR ===== */
+inputbar {
+    border: 1px;
+    border-color: rgba(110,231,255,0.15);
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 14px;
+    padding: 10px 14px;
+}
+
+prompt {
+    enabled: false;
+}
+
+entry {
+    background-color: transparent;
+    text-color: rgba(255,255,255,0.9);
+    placeholder: "Search...";
+}
+
+/* ===== LIST ===== */
+listview {
+    spacing: 10px;
+    scrollbar: false;
+    lines: 8;
+}
+
+/* ===== ITEMS (HARD OVERRIDE) ===== */
+element {
+    background-color: transparent;
+    border-radius: 14px;
+    padding: 10px 14px;
+}
+
+/* NORMAL */
+element normal.normal {
+    background-color: rgba(30,30,30,0.25);
+}
+
+/* ACTIVE */
+element active.normal {
+    background-color: rgba(30,30,30,0.4);
+}
+
+/* URGENT */
+element urgent.normal {
+    background-color: rgba(30,30,30,0.35);
+}
+
+/* SELECTED */
+element selected.normal {
+    background-color: rgba(110,231,255,0.22);
+}
+
+/* TEXT */
+element-text {
+    font: "JetBrainsMono Nerd Font Medium 13";
+    background-color: transparent;
+    text-color: rgba(255,255,255,0.8);
+    margin: 2px 0px;
+}
+
+/* SELECTED TEXT */
+element selected.normal element-text {
+    text-color: #6ee7ff;
+}
+
+/* ICON */
+element-icon {
+    size: 20px;
+}
+
+/* REMOVE SCROLLBAR */
+scrollbar {
+    handle-width: 0px;
+}

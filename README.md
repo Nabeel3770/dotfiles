@@ -21,10 +21,22 @@ This setup focuses on simplicity over complexity - no unnecessary bloat, just a 
 
 🖼️ Preview
 
-<p align="center">
-  <img src="screenshots/desktop.png" width="48%" />
-  <img src="screenshots/wlogout.png" width="48%" />
-</p>
+## Preview
+
+### Desktop
+
+![desktop](previews/desktop.png)
+![desktop2](previews/desktop2.png)
+![desktop3](previews/desktop3.png)
+
+### Rofi
+
+![rofi](previews/rofi.png)
+
+### Video
+
+[Preview Demo](previews/preview.mp4)  
+[Hyprlock Demo](previews/hyprlock.mp4)
 
 ---
 
