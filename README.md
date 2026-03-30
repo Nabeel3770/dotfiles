@@ -1,6 +1,6 @@
 ✨ My Hyprland Dotfiles
 
-My first Hyprland rice - minimal, clean, and actually usable.
+Minimal, smooth, easy-to-customize Hyprland setup.
 
 ---
 
@@ -23,6 +23,9 @@ This setup focuses on simplicity over complexity - no unnecessary bloat, just a 
 
 ## Preview
 
+![Preview](previews/preview.gif)
+![Hyprlock](previews/hyprlock.gif)
+
 ### Desktop
 
 ![desktop](previews/desktop.png)
@@ -32,11 +35,6 @@ This setup focuses on simplicity over complexity - no unnecessary bloat, just a 
 ### Rofi
 
 ![rofi](previews/rofi.png)
-
-### Video
-
-[Preview Demo](previews/preview.gif)  
-[Hyprlock Demo](previews/hyprlock.gif)
 
 ---
 
@@ -66,6 +64,7 @@ This setup focuses on simplicity over complexity - no unnecessary bloat, just a 
 1. Clone the repository
 
 git clone https://github.com/Nabeel3770/dotfiles.git
+
 cd dotfiles
 
 ---
@@ -82,6 +81,13 @@ chmod +x install.sh
 After installation, log out and log back in (or reboot) to apply everything.
 
 ---
+
+4. Features
+- Smooth macOS-like animations.
+- Minimal glowing lockscreen.
+- Dynamic wallpaper transitions.
+- Clean and lightweight design.
+- Very easy to customise and learn.
 
 🧾 Notes
 
