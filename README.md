@@ -35,8 +35,8 @@ This setup focuses on simplicity over complexity - no unnecessary bloat, just a 
 
 ### Video
 
-[Preview Demo](previews/preview.mp4)  
-[Hyprlock Demo](previews/hyprlock.mp4)
+[Preview Demo](previews/preview.gif)  
+[Hyprlock Demo](previews/hyprlock.gif)
 
 ---
 
