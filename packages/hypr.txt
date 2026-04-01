@@ -4,4 +4,3 @@ hyprpaper
 hyprpicker
 hyprshot
 swaync
-wlogout
