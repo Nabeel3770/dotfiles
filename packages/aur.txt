@@ -1,3 +1,4 @@
 grimblast-git
 waypaper
 python-pywalfox
+bibata-cursor-theme
