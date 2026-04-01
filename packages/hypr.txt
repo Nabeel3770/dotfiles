@@ -1,0 +1,7 @@
+hyprlock
+hypridle
+hyprpaper
+hyprpicker
+hyprshot
+swaync
+wlogout

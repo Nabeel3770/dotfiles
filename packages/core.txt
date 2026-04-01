@@ -1,0 +1,16 @@
+hyprland
+waybar
+kitty
+rofi
+dunst
+swww
+grim
+slurp
+wl-clipboard
+xdg-user-dirs
+networkmanager
+network-manager-applet
+pipewire-alsa
+pipewire-pulse
+pavucontrol
+polkit-gnome

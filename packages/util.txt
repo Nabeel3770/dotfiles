@@ -1,0 +1,9 @@
+neovim
+git
+wget
+unzip
+htop
+btop
+fastfetch
+fzf
+eza
