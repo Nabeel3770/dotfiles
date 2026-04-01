@@ -1,0 +1,67 @@
+* {
+  font-family: "Fira Sans SemiBold";
+  background-image: none;
+  box-shadow: none;
+}
+
+window {
+  background-color: rgba(20, 20, 20, 0.6);
+}
+
+button {
+  color: #eaeaea;
+  background-color: rgba(30, 30, 30, 0.9);
+  border-radius: 16px;
+  border: 2px solid transparent;
+  margin: 10px;
+  padding: 20px;
+
+  /*  ICON SYSTEM */
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: 100px;
+
+  transition: all 0.2s ease;
+}
+
+/* TEXT POSITION */
+button label {
+  margin-top: 60px;
+}
+
+/* HOVER (your cyan style preserved) */
+button:hover {
+  border: 2px solid #00ffff;
+  background-color: rgba(0,255,255,0.1);
+  box-shadow: 0 0 20px rgba(0,255,255,0.3);
+}
+
+/* FOCUS */
+button:focus {
+  border: 2px solid #6ee7ff;
+}
+
+/*  ICONS */
+#lock {
+  background-image: url("icons/lock.svg");
+}
+
+#logout {
+  background-image: url("icons/logout.svg");
+}
+
+#suspend {
+  background-image: url("icons/suspend.svg");
+}
+
+#hibernate {
+  background-image: url("icons/hibernate.svg");
+}
+
+#shutdown {
+  background-image: url("icons/shutdown.svg");
+}
+
+#reboot {
+  background-image: url("icons/reboot.svg");
+}

@@ -1,0 +1,63 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 36,
+
+  "modules-left": ["custom/arch", "hyprland/workspaces", "mpris"],
+  "modules-center": ["clock"],
+  "modules-right": ["pulseaudio", "tray", "custom/notifications", "custom/power"],
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "disable-scroll": true
+  },
+
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip": false
+  },
+
+  "tray": {
+    "icon-size": 16,
+    "spacing": 8
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "󰝟 muted",
+    "format-icons": {
+      "default": ["󰕿", "󰖀", "󰕾"]
+    },
+    "tooltip": true,
+    "tooltip-format": "Volume: {volume}%",
+    "on-click": "pavucontrol"
+  },
+
+  "mpris": {
+    "format": "{player_icon} {title}",
+    "player-icons": {
+      "default": "▶"
+    },
+    "max-length": 25
+  },
+
+  "custom/arch": {
+    "format": " ",
+    "tooltip": false,
+    "on-click": "rofi -show drun"
+  },
+
+  "custom/notifications": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "swaync-client -t"
+  },
+
+  "custom/power": {
+    "format": " ",
+    "tooltip": "Power Menu",
+    "on-click": "wlogout",
+    "on-click-right": "wlogout",
+    "escape": true
+}
+}

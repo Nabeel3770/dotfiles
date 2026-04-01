@@ -1,0 +1,5 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:4300
+SETUVAR fish_greeting:
+SETUVAR fish_user_paths:/home/pixy/\x2espicetify\x1e/usr/lib/ccache/bin/\x1e/home/pixy/\x2ecargo/bin/\x1e/home/pixy/\x2elocal/bin/

@@ -1,0 +1,12 @@
+* {
+    accent-color: #6ee7ff;
+}
+
+*:selected {
+    background-color: rgba(110,231,255,0.2);
+    color: #6ee7ff;
+}
+
+progress, scale highlight {
+    background-color: #6ee7ff;
+}

@@ -1,0 +1,26 @@
+{
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-layer": "top",
+  "control-center-margin-top": 10,
+  "control-center-margin-right": 10,
+
+  "notification-icon-size": 40,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+
+  "timeout": 5,
+  "timeout-low": 3,
+  "timeout-critical": 0,
+
+  "fit-to-screen": true,
+
+  "control-center-width": 300,
+  "control-center-height": 350,
+
+  "margin-top": 20,
+  "margin-right": 20,
+
+  "show-app-name": true,
+}

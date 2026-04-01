@@ -1,0 +1,8 @@
+[
+  { "label": "Lock", "action": "loginctl lock-session", "class": "lock" },
+  { "label": "Logout", "action": "hyprctl dispatch exit", "class": "logout" },
+  { "label": "Suspend", "action": "systemctl suspend", "class": "suspend" },
+  { "label": "Hibernate", "action": "systemctl hibernate", "class": "hibernate" },
+  { "label": "Shutdown", "action": "systemctl poweroff", "class": "shutdown" },
+  { "label": "Reboot", "action": "systemctl reboot", "class": "reboot" }
+]

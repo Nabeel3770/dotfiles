@@ -1,0 +1,107 @@
+@import "colors.css";
+
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    color: @fg;
+}
+
+tooltip {
+    background: rgba(20, 20, 20, 0.9);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 8px 12px;
+}
+
+tooltip label {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+/* Entire bar */
+window#waybar {
+    background: transparent;
+}
+
+/* === FLOATING PILLS  === */
+
+/* LEFT GROUP */
+#custom-arch,
+#workspaces {
+    background: rgba(20, 20, 20, 0.85);
+    border-radius: 20px;
+    padding: 6px 14px;
+    margin: 6px 4px;
+}
+
+/* CENTER GROUP */
+#mpris,
+#clock {
+    background: rgba(20, 20, 20, 0.85);
+    border-radius: 20px;
+    padding: 6px 16px;
+    margin: 6px 6px;
+}
+
+/* RIGHT GROUP */
+#network,
+#pulseaudio,
+#tray,
+#custom-notifications {
+    background: rgba(20, 20, 20, 0.85);
+    border-radius: 20px;
+    padding: 6px 14px;
+    margin: 6px 4px;
+}
+
+#custom-power {
+    background: rgba(20, 20, 20, 0.85);
+    border-radius: 20px;
+    padding: 6px 14px;
+    margin: 6px 4px;
+}
+
+#custom-power:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+/* === WORKSPACES === */
+#workspaces {
+    padding: 0 6px;
+}
+
+/* buttons */
+#workspaces button {
+    padding: 4px 10px;
+    margin: 0 4px;
+    border-radius: 14px;
+    background: transparent;
+    transition: all 0.2s ease;
+}
+
+/* label inside button */
+#workspaces button label {
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+}
+
+/* ACTIVE workspace */
+#workspaces button.active {
+    background: rgba(0, 212, 255, 0.08);
+    border: 1px solid rgba(0, 212, 255, 0.25);
+    box-shadow: 0 0 4px rgba(0, 212, 255, 0.12);
+}
+/* active label color */
+#workspaces button.active label {
+    color: #00d4ff;
+}
+
+/* hover */
+#workspaces button:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+#workspaces button:hover label {
+    color: white;
+}
